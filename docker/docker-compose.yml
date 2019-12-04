@@ -1,0 +1,7 @@
+version: '2'
+services:
+  rendering-service:
+    build: ../.
+    container_name: "rendering-service"
+    ports:
+      - "5000:5000"
