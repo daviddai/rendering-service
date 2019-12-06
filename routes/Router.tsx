@@ -1,7 +1,8 @@
 import React from 'react';
-import Greeting from "../component/Greeting";
+import Greeting from '../component/Greeting';
 import Home from '../component/Home';
 import { Switch, Route, StaticRouter, RouteProps } from 'react-router';
+import { BrowserRouter } from 'react-router-dom';
 
 const routes: Array<RouteProps> = [
     {
@@ -31,8 +32,13 @@ const Router: React.FC<ApplicationRouterPropShape> = (props) => {
             }
         </Switch>
     );
-
-    return <StaticRouter location={requestUri}>{children}</StaticRouter>
+    
+    if (requestUri !== undefined && requestUri !== null) {
+        return <StaticRouter location={requestUri}>{children}</StaticRouter>
+    } else {
+        return <BrowserRouter>{children}</BrowserRouter>
+    }
+    
 };
 
 export default Router;

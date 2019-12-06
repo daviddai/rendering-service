@@ -6,4 +6,4 @@ import Application from '../Application';
 ReactDom.hydrate(
     <Application />,
     document.getElementById("app")
-)
+);

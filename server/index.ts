@@ -7,7 +7,7 @@ const getRendered = (body: string) => `
                 ${body}
             </div>
         </body>
-        <script src="/static/client.js"></script>
+        <script src="http://localhost:5000/static/client.js"></script>
     </html>
 `;
 
