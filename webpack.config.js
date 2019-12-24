@@ -18,6 +18,7 @@ const javascriptLoader = {
 };
 
 const server = {
+    mode: 'development',
     target: 'node',
     entry: './server/server.tsx',
     output: {
@@ -27,6 +28,7 @@ const server = {
 };
 
 const client = {
+    mode: 'development',
     target: 'web',
     entry: './client/client.tsx',
     output: {
