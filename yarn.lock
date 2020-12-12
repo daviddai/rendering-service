@@ -2,20 +2,12 @@
 # yarn lockfile v1
 
 
-"@babel/runtime@^7.1.2", "@babel/runtime@^7.4.0", "@babel/runtime@^7.7.4":
+"@babel/runtime@^7.1.2", "@babel/runtime@^7.4.0":
   version "7.7.4"
   resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.7.4.tgz#b23a856751e4bf099262f867767889c0e3fe175b"
   integrity sha512-r24eVUUr0QqNZa+qrImUk8fn5SPhHq+IfYvIoIMg0do3GdK9sMdiLKP3GYVVaxpPKORgm8KRKaNTEhAjgIpLMw==
   dependencies:
     regenerator-runtime "^0.13.2"
-
-"@loadable/component@^5.11.0":
-  version "5.11.0"
-  resolved "https://registry.yarnpkg.com/@loadable/component/-/component-5.11.0.tgz#e495834279663d20aabf0e4ca25e5c44bef308eb"
-  integrity sha512-RzXAH419hnC6vF/ZAEv+k1JgbE/4G7veZo3RvwQDRfp2BFrwbJp9qasjccuk6RrQR/nWWgufaW/CGlL6NSBNGw==
-  dependencies:
-    "@babel/runtime" "^7.7.4"
-    hoist-non-react-statics "^3.3.1"
 
 "@types/body-parser@*":
   version "1.17.1"
@@ -1515,7 +1507,7 @@ hmac-drbg@^1.0.0:
     minimalistic-assert "^1.0.0"
     minimalistic-crypto-utils "^1.0.1"
 
-hoist-non-react-statics@^3.1.0, hoist-non-react-statics@^3.3.1:
+hoist-non-react-statics@^3.1.0:
   version "3.3.1"
   resolved "https://registry.yarnpkg.com/hoist-non-react-statics/-/hoist-non-react-statics-3.3.1.tgz#101685d3aff3b23ea213163f6e8e12f4f111e19f"
   integrity sha512-wbg3bpgA/ZqWrZuMOeJi8+SKMhr7X9TesL/rXMjTzh0p0JUBo3II8DHboYbuIXWRlttrUFxwcu/5kygrCw8fJw==
@@ -1622,9 +1614,9 @@ inherits@2.0.3:
   integrity sha1-Yzwsg+PaQqUC9SRmAiSA9CCCYd4=
 
 ini@^1.3.4, ini@^1.3.5, ini@~1.3.0:
-  version "1.3.5"
-  resolved "https://registry.yarnpkg.com/ini/-/ini-1.3.5.tgz#eee25f56db1c9ec6085e0c22778083f596abf927"
-  integrity sha512-RZY5huIKCMRWDUqZlEi72f/lmXKMvuszcMBduliQ3nnWbx9X/ZBQO7DijMEYS9EhHBb2qacRUMtC7svLwe0lcw==
+  version "1.3.8"
+  resolved "https://registry.yarnpkg.com/ini/-/ini-1.3.8.tgz#a29da425b48806f34767a4efce397269af28432c"
+  integrity sha512-JV/yugV2uzW5iMRSiZAyDtQd+nxtUnjeLt0acNdw98kKLrvuRVyB80tsREOE7yvGVgalhZ6RNXCmEHkUKBKxew==
 
 interpret@1.2.0:
   version "1.2.0"
@@ -1855,13 +1847,6 @@ lcid@^2.0.0:
   integrity sha512-avPEb8P8EGnwXKClwsNUgryVjllcRqtMYa49NTsbQagYuT1DcXnl1915oxWjoyGrXR6zH/Y0Zc96xWsPcoDKeA==
   dependencies:
     invert-kv "^2.0.0"
-
-loadable-component@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/loadable-component/-/loadable-component-1.0.0.tgz#8bdeec628b1025b0c6a2f3c8e7ecc00b979b5730"
-  integrity sha512-ASnc6cjdkupV5iq/CT424WMih3ism+StPtwBbitw58urr8yEUYHWLCv3Glo9SJwUXCM/HfKByHr/pKKoU7Eitw==
-  dependencies:
-    react "^16.4.0"
 
 loader-runner@^2.4.0:
   version "2.4.0"
@@ -2704,7 +2689,7 @@ react-router@5.1.2, react-router@^5.1.2:
     tiny-invariant "^1.0.2"
     tiny-warning "^1.0.0"
 
-react@^16.12.0, react@^16.4.0:
+react@^16.12.0:
   version "16.12.0"
   resolved "https://registry.yarnpkg.com/react/-/react-16.12.0.tgz#0c0a9c6a142429e3614834d5a778e18aa78a0b83"
   integrity sha512-fglqy3k5E+81pA8s+7K0/T3DBCF0ZDOher1elBFzF7O6arXJgzyu/FW+COxFvAWXJoJN9KIZbT2LXlukwphYTA==
